@@ -7,45 +7,14 @@ import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="max-w-[1200px] mx-auto ">
-      <Header></Header>
-      <Dashboard></Dashboard>
-    </div>
-  )
+    <main>
+      <Header />
+      <div className="max-w-[1200px] mx-auto">
+        <Dashboard />
+      </div>
+    </main>
+  );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // const [categories, setCategories] = useState([]);
 
