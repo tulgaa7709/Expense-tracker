@@ -2,7 +2,7 @@ const fs = require("fs");
 const { title } = require("process");
 const { v4: uuidv4 } = require('uuid');
 const { sql } = require("./config/database")
-const { startApp, app } = require("./config/basic")
+const {  app } = require("./config/basic")
 
 const content = fs.readFileSync("categories.json", "utf-8");
 const categories = JSON.parse(content);
