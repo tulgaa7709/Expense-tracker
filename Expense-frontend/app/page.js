@@ -1,13 +1,15 @@
 // "use client";
 
+import { Dashboard } from "@/components/Dashboard";
 import { Header } from "@/components/Header";
 
 // import { useEffect, useState } from "react";
 
 export default function Home() {
   return (
-    <div className="max-w-[1200px] mx-auto">
+    <div className="max-w-[1200px] mx-auto ">
       <Header></Header>
+      <Dashboard></Dashboard>
     </div>
   )
 }
